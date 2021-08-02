@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_home"
+    app:startDestination="@id/login_fragment_dest">
+
+    <fragment
+        android:id="@+id/login_fragment_dest"
+        android:name="com.example.preneticstest.login.fragment.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/login_layout">
+        <action
+            android:id="@+id/action_login_fragment_dest_to_dashboard_fragment_dest"
+            app:destination="@id/dashboard_fragment_dest" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dashboard_fragment_dest"
+        android:name="com.example.preneticstest.dashboard.fragment.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/dashboard_layout">
+    </fragment>
+
+</navigation>

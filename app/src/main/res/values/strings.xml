@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PreneticsTest</string>
+
+    <string name="don_t_have_an_account_sign_up">Don’t have an account? Sign Up</string>
+    <string-array name="fragmentListName">
+        <item>GENETICS</item>
+        <item>HEART RATE</item>
+        <item>PROFILE</item>
+    </string-array>
+
+    <string name="your_email">Enter email</string>
+    <string name="your_password">Enter password</string>
+    <string name="firstName">First name</string>
+    <string name="lastName">Last name</string>
+    <string name="email">Email</string>
+    <string name="dob">Date of Birth</string>
+
+    <string name="heart_default_text">-- BPM</string>
+</resources>
