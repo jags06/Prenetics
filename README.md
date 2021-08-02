@@ -1,3 +1,3 @@
 # Prenetics
 
-Please use peter credentials from test to run this code 
+Please use peter credentials from test PDF shared earlier to run this code 
